@@ -147,6 +147,8 @@ df_product.head(10).plot(kind='barh', ax = ax )
 
 
 #Getting top 10 list of items sold
+
+server = app.server
 product_names = df_product.index.tolist()
 product_names[:10]
 
